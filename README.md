@@ -1,7 +1,7 @@
 # CRUD de professores
 
-- **Aluno:** [preencher nome completo]
-- **Disciplina:** [preencher nome da disciplina]
+- **Aluno:** Antonio Neves Aguiar Neto
+- **Disciplina:** Desenvolvimento Back-end em Java
 
 API REST de cadastro e gerenciamento de professores, desenvolvida a partir do projeto `gestao_fsa-main`. Permite listar, filtrar por nome e área, cadastrar, editar e excluir professores.
 
@@ -125,24 +125,6 @@ Envie `PUT /professores/{id}` usando o ID recebido no cadastro:
   "telefone": "86988888888"
 }
 ```
-
-## Testes automatizados
-
-Na pasta `projeto/`, execute no Windows:
-
-```powershell
-.\mvnw.cmd test
-```
-
-No Linux/macOS:
-
-```bash
-sh mvnw test
-```
-
-Os testes usam MockMvc com o controller e o service reais e o repository simulado. Cobrem os seis endpoints, os códigos HTTP, os dados das respostas, os filtros e as operações com IDs inexistentes. A integração com PostgreSQL deve ser verificada com a aplicação em execução.
-
-Resultado dos testes automatizados: **8 testes executados, 0 falhas, 0 erros e 0 testes ignorados**.
 
 ## Evidências de execução com PostgreSQL
 
