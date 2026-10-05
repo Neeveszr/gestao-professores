@@ -45,7 +45,7 @@ API REST de cadastro e gerenciamento de professores, desenvolvida a partir do pr
 
    Se executar pela IDE, configure as variáveis na configuração de execução de `GestaoApplication`. No terminal, use a mesma sessão para definir as variáveis e iniciar o projeto.
 
-   A aplicação valida a tabela criada pelo script SQL.
+   A aplicação atualiza automaticamente a estrutura das tabelas. Os registros iniciais são inseridos pelo script SQL.
 
 5. Abra um terminal na pasta `Gestao_Professores`, entre em `projeto/` e execute:
 
